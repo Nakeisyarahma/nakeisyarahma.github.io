@@ -8,7 +8,6 @@ const { Header, Content, Footer } = Layout;
 const { Title, Text, Paragraph } = Typography;
 
 
-
 function LayoutWrapper({children}) {
   const navigate = useNavigate();
   const items = [{
