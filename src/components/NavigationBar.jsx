@@ -30,7 +30,12 @@ export default function NavigationBar() {
         >
             <button
                 onClick={() => navigate("/")}
-                style={{padding: 0, background: "none", border: "none"}}
+                style={{
+                    padding: 0,
+                    background: "none",
+                    border: "none",
+                    cursor: "pointer",
+                }}
             >
                 <img src='/logo.png' style={{height: 50}} />
             </button>
