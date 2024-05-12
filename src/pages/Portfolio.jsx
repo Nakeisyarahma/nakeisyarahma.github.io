@@ -1,4 +1,4 @@
-import {Breadcrumb, Card, List, Space, Tabs} from "antd";
+import {Breadcrumb, Button, Card, List, Space, Tabs} from "antd";
 import Meta from "antd/es/card/Meta";
 import React from "react";
 import {useNavigate} from "react-router-dom";
@@ -12,7 +12,7 @@ export default function Portfolio() {
                 <Breadcrumb
                     items={[
                         {
-                            title: <a href='/'>Home</a>,
+                            title: <a onClick={() => navigate("/")}>Home</a>,
                         },
                         {
                             title: "Portfolio",
