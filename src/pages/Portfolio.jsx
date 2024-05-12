@@ -20,6 +20,7 @@ export default function Portfolio() {
                     ]}
                 />
                 <Tabs
+                    style={{width: "90vw"}}
                     type='card'
                     items={websiteData.user.works.map((item, index) => {
                         return {
