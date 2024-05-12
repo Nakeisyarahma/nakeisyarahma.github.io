@@ -1,29 +1,7 @@
 import React from "react";
-import {
-    Avatar,
-    Breadcrumb,
-    Button,
-    Card,
-    Flex,
-    Image,
-    Layout,
-    List,
-    Menu,
-    Steps,
-    Tabs,
-    theme,
-    Typography,
-} from "antd";
-import {
-    HomeOutlined,
-    MailOutlined,
-    PhoneOutlined,
-    UserOutlined,
-} from "@ant-design/icons";
-import {Route, Routes} from "react-router-dom";
-import Portfolio from "./Portfolio";
-const {Header, Content, Footer} = Layout;
-const {Title, Text, Paragraph} = Typography;
+import {Avatar, Card, Flex, Image, List, Steps, theme, Typography} from "antd";
+import {HomeOutlined, MailOutlined, PhoneOutlined} from "@ant-design/icons";
+const {Title, Text} = Typography;
 
 export default function Homepage() {
     const {
@@ -42,10 +20,10 @@ export default function Homepage() {
                 <Flex vertical align='center'>
                     <Avatar
                         size={{
-                            xs: 48,
-                            sm: 64,
-                            md: 80,
-                            lg: 128,
+                            xs: 150,
+                            sm: 150,
+                            md: 150,
+                            lg: 150,
                             xl: 160,
                             xxl: 200,
                         }}
