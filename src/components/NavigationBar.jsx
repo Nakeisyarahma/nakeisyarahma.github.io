@@ -1,6 +1,7 @@
 import {Layout, Menu} from "antd";
 import React from "react";
 import {useNavigate} from "react-router-dom";
+const websiteData = require("../config/data.json");
 const {Header} = Layout;
 
 export default function NavigationBar() {
@@ -37,7 +38,7 @@ export default function NavigationBar() {
                     cursor: "pointer",
                 }}
             >
-                <img src='/logo.png' style={{height: 50}} />
+                <img src={websiteData.logo} style={{height: 50}} />
             </button>
             <Menu
                 theme='dark'

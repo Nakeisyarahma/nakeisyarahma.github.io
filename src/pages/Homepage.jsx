@@ -2,6 +2,7 @@ import React from "react";
 import {Avatar, Card, Flex, Image, List, Steps, theme, Typography} from "antd";
 import {HomeOutlined, MailOutlined, PhoneOutlined} from "@ant-design/icons";
 const {Title, Text} = Typography;
+const websiteData = require("../config/data.json");
 
 export default function Homepage() {
     const {
@@ -28,17 +29,14 @@ export default function Homepage() {
                             xxl: 200,
                         }}
                         icon={
-                            <Image style={{width: 200}} src='/profile.JPEG' />
+                            <Image
+                                style={{width: 200}}
+                                src={websiteData.user.avatar}
+                            />
                         }
                     />
-                    <Title level={1}>Nakeisya Rahma Nurramadhan</Title>
-                    <Text align='center'>
-                        Saya merupakan lulusan baru dari SMK Jurusan Multimedia.
-                        Dengan Pengalaman dokumentasi berbagai Event. Berkat
-                        hasil kerja keras saya, saya juga berhasil Lulus dengan
-                        Nilai rapot 83,04, Saya juga sudah mengikuti beberapa
-                        lomba membuat video iklan.
-                    </Text>
+                    <Title level={1}>{websiteData.user.name}</Title>
+                    <Text align='center'>{websiteData.user.description}</Text>
                 </Flex>
 
                 <Title level={2}>Education</Title>
@@ -46,20 +44,12 @@ export default function Homepage() {
                     progressDot
                     current={4}
                     direction='vertical'
-                    items={[
-                        {
-                            title: "SDN 3 KRASAK",
-                            description: "2012-2018",
-                        },
-                        {
-                            title: "MTsN 1 JEPARA",
-                            description: "2019-2021",
-                        },
-                        {
-                            title: "SMKN 3 JEPARA",
-                            description: "2022-2024",
-                        },
-                    ]}
+                    items={websiteData.user.educations.map((item) => {
+                        return {
+                            title: item.name,
+                            description: item.year,
+                        };
+                    })}
                 />
             </div>
             <Title level={2} align='center'>
@@ -76,16 +66,10 @@ export default function Homepage() {
                     xl: 6,
                     xxl: 3,
                 }}
-                dataSource={[
-                    {title: "Adobe Illustrator"},
-                    {title: "Adobe Photoshop"},
-                    {title: "Adobe Premiere Pro"},
-                    {title: "Adobe After Effect"},
-                    {title: "Adobe Lightroom"},
-                ]}
+                dataSource={websiteData.user.skills}
                 renderItem={(item) => (
                     <List.Item>
-                        <Card title={item.title}></Card>
+                        <Card title={item.title}>{item.description}</Card>
                     </List.Item>
                 )}
             />
@@ -94,21 +78,18 @@ export default function Homepage() {
                 progressDot
                 current={4}
                 direction='vertical'
-                items={[
-                    {
-                        title: "SHINE VISUALS STUDIO",
+                items={websiteData.user.experiences.map((item) => {
+                    return {
+                        title: item.company,
                         description: (
                             <>
-                                Saya mempunyai pengalaman praktik kerja lapangan
-                                di Shine Visuals Studio selama 6 bulan sebagai
-                                Fotografer dan Editor Video, disana saya
-                                berhasil memperoleh nilai akhir 89,54
+                                {item.description}
                                 <br />
-                                2022-2023
+                                {item.year}
                             </>
                         ),
-                    },
-                ]}
+                    };
+                })}
             />
             <Title level={2}>Contact</Title>
             <List
@@ -117,17 +98,17 @@ export default function Homepage() {
                     {
                         icon: <HomeOutlined />,
                         title: "Address",
-                        description: "Jambu Timur RT 18 RW 04, Mlonggo, Jepara",
+                        description: websiteData.user.address,
                     },
                     {
                         icon: <PhoneOutlined />,
                         title: "Phone",
-                        description: "+6282126959118",
+                        description: websiteData.user.phone,
                     },
                     {
                         icon: <MailOutlined />,
                         title: "Email",
-                        description: "nakeisyarahma99@gmail.com",
+                        description: websiteData.user.email,
                     },
                 ]}
                 renderItem={(item, index) => (

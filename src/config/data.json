@@ -1,0 +1,56 @@
+{
+    "logo": "/logo.png",
+    "user": {
+        "avatar": "/profile.JPEG",
+        "name": "Nakeisya Rahma Nurramadhan",
+        "nickname": "Nakeisya",
+        "description": "Saya merupakan lulusan baru dari SMK Jurusan Multimedia. Dengan Pengalaman dokumentasi berbagai Event. Berkat hasil kerja keras saya, saya juga berhasil Lulus dengan nilai rapot 83,04, Saya juga sudah mengikuti beberapa lomba membuat video iklan.",
+        "educations": [
+            {"name": "SDN 3 KRASAK", "year": "2012-2018"},
+            {"name": "MTsN 1 JEPARA", "year": "2019-2021"},
+            {"name": "SMKN 3 JEPARA", "year": "2022-2024"}
+        ],
+        "skills": [
+            {"title": "Adobe Illustrator", "description": ""},
+            {"title": "Adobe Photoshop", "description": ""},
+            {"title": "Adobe Premiere Pro", "description": ""},
+            {"title": "Adobe After Effects", "description": ""},
+            {"title": "Adobe Lightroom", "description": ""}
+        ],
+        "experiences": [
+            {
+                "company": "SHINE VISUALS STUDIO",
+                "description": "Saya mempunyai pengalaman praktik kerja lapangan di Shine Visuals Studio selama 6 bulan sebagai Fotografer dan Editor Video, disana saya berhasil memperoleh nilai akhir 89,54",
+                "year": "2022-2024"
+            }
+        ],
+        "address": "Jambu Timur RT 18 RW 04, Mlonggo, Jepara",
+        "phone": "+6282126959118",
+        "email": "nakeisyarahma99@gmail.com",
+        "works": [
+            {
+                "label": "Photograpy",
+                "content": [
+                    {"thumbnail": "/profile.JPEG", "title": "Profile", "link": "https"},
+                    {"thumbnail": "/profile.JPEG", "title": "Profile", "link": "https://www.youtube.com"}
+                ]
+            },
+            {
+                "label": "Videograpy",
+                "content": []
+            },
+            {
+                "label": "Video Editing",
+                "content": []
+            },
+            {
+                "label": "Graphic Design",
+                "content": []
+            }
+        ]
+    },
+    "copyright": {
+        "holder": "Nakeisya"
+    }
+    
+}

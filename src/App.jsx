@@ -4,6 +4,7 @@ import {Route, Routes} from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Portfolio from "./pages/Portfolio";
 import NavigationBar from "./components/NavigationBar";
+const websiteData = require("./config/data.json");
 const {Content, Footer} = Layout;
 
 // function LayoutWrapper({children}) {
@@ -33,7 +34,7 @@ const App = () => {
                     textAlign: "center",
                 }}
             >
-                Nakeisya ©{new Date().getFullYear()}
+                {websiteData.copyright.holder} ©{new Date().getFullYear()}
             </Footer>
         </Layout>
     );
