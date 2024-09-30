@@ -1,4 +1,4 @@
-import {Breadcrumb, Button, Card, List, Space, Tabs} from "antd";
+import {Breadcrumb, Button, Card, List, Space, Tabs, Image} from "antd";
 import Meta from "antd/es/card/Meta";
 import React from "react";
 import {useNavigate} from "react-router-dom";
@@ -44,7 +44,7 @@ export default function Portfolio() {
                                             <Card
                                                 hoverable
                                                 cover={
-                                                    <img
+                                                    <Image
                                                         alt='example'
                                                         src={item.thumbnail}
                                                     />
@@ -59,7 +59,7 @@ export default function Portfolio() {
                                                     description={item.link}
                                                 />
                                             </Card>
-                                        </List.Item>
+                                        </List.Item> 
                                     )}
                                 />
                             ),

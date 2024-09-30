@@ -27,6 +27,10 @@ export default function NavigationBar() {
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "space-between",
+                position: 'fixed',
+                width: '100%',
+                zIndex: 9999
+
             }}
         >
             <button

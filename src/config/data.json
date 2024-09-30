@@ -4,53 +4,126 @@
         "avatar": "/profile.JPEG",
         "name": "Nakeisya Rahma Nurramadhan",
         "nickname": "Nakeisya",
-        "description": "Saya merupakan lulusan baru dari SMK Jurusan Multimedia. Dengan Pengalaman dokumentasi berbagai Event. Berkat hasil kerja keras saya, saya juga berhasil Lulus dengan nilai rapot 83,04, Saya juga sudah mengikuti beberapa lomba membuat video iklan.",
+        "description": "I am a new graduate from SMK Multimedia Department. With experience documenting various events. I also graduated with a report card score of 82.32. I have also participated in several competitions to make advertising videos.",
         "educations": [
             {"name": "SDN 3 KRASAK", "year": "2012-2018"},
             {"name": "MTsN 1 JEPARA", "year": "2019-2021"},
-            {"name": "SMKN 3 JEPARA", "year": "2022-2024"}
+            {"name": "SMKN 3 JEPARA", "year": "2022-2024", "description": "jkcvncvjcvn"}
         ],
         "skills": [
             {"title": "Adobe Illustrator", "description": ""},
             {"title": "Adobe Photoshop", "description": ""},
             {"title": "Adobe Premiere Pro", "description": ""},
             {"title": "Adobe After Effects", "description": ""},
-            {"title": "Adobe Lightroom", "description": ""}
+            {"title": "Adobe Lightroom", "description": ""},
+            {"title": "Ms. Office", "description": ""},
+            {"title": "Photograpy", "description": ""},
+            {"title": "Videograpy", "description": ""}
         ],
         "experiences": [
             {
                 "company": "SHINE VISUALS STUDIO",
-                "description": "Saya mempunyai pengalaman praktik kerja lapangan di Shine Visuals Studio selama 6 bulan sebagai Fotografer dan Editor Video, disana saya berhasil memperoleh nilai akhir 89,54",
-                "year": "2022-2024"
+                "description": "I have practical field work experience at Shine Visuals Studio for 6 months as a Photographer and Video Editor, there I managed to get a final score of 89.54",
+                "year": "2023"
+            },
+            {
+                "company": "CEDAR HOME STORE",
+                "description": "I have work experience at Cedar Home Store for 6 months as a Graphic Design",
+                "year": "2024"
             }
+            
         ],
-        "address": "Jambu Timur RT 18 RW 04, Mlonggo, Jepara",
+        "address": "Jambu Timur RT 18 RW 04, Mlonggo, Jepara, Central Java",
         "phone": "+6282126959118",
         "email": "nakeisyarahma99@gmail.com",
+        "Instagram": "nakeisya_rn",
+        "Linkedin": "Nakeisya Rahma Nurramadhan",
+        "portofolio": "For the complete portfolio, please click on the 3 dots in the top right corner",
         "works": [
             {
                 "label": "Photograpy",
-                "content": [
-                    {"thumbnail": "/profile.JPEG", "title": "Profile", "link": "https"},
-                    {"thumbnail": "/profile.JPEG", "title": "Profile", "link": "https://www.youtube.com"}
+                "content": [  
+                    {"thumbnail": "/po1.png", "title": "Perang Obor 1"},
+                    {"thumbnail": "/po2.png", "title": "Perang Obor 2"},
+                    {"thumbnail": "/po3.png", "title": "Perang Obor 3"},
+                    {"thumbnail": "/po5.png", "title": "Perang Obor 4"},
+                    {"thumbnail": "/po4.png", "title": "Perang Obor 5"},
+                    {"thumbnail": "/po6.png", "title": "Perang Obor 6"},
+                    {"thumbnail": "/fs2.png", "title": "Fashion Show 1"},
+                    {"thumbnail": "/fs1.png", "title": "Fashion Show 2"},
+                    {"thumbnail": "/fs3.png", "title": "Fashion Show 3"},
+                    {"thumbnail": "/fs4.png", "title": "Fashion Show 4"},
+                    {"thumbnail": "/fs5.png", "title": "Fashion Show 5"},
+                    {"thumbnail": "/fs6.png", "title": "Fashion Show 6"},
+                    {"thumbnail": "/pr1.png", "title": "Foto Produk 1"},
+                    {"thumbnail": "/pr2.png", "title": "Foto Produk 2"},
+                    {"thumbnail": "/pr3.png", "title": "Foto Produk 3"},
+                    {"thumbnail": "/pr4.png", "title": "Foto Produk 4"},
+                    {"thumbnail": "/pr5.png", "title": "Foto Produk 5"},
+                    {"thumbnail": "/pr6.png", "title": "Foto Produk 6"},
+                    {"thumbnail": "/ev1.png", "title": "foto event 1"},
+                    {"thumbnail": "/ev2.png", "title": "foto event 2"},
+                    {"thumbnail": "/ev3.png", "title": "foto event 3"},
+                    {"thumbnail": "/ev6.png", "title": "foto event 4"},
+                    {"thumbnail": "/ev5.png", "title": "foto event 5"},
+                    {"thumbnail": "/ev4.png", "title": "foto event 6"},
+                    {"thumbnail": "/ev7.png", "title": "foto event 7"},
+                    {"thumbnail": "/ev8.png", "title": "foto event 8"},
+                    {"thumbnail": "/ev9.png", "title": "foto event 9"},
+                    {"thumbnail": "/ev10.png", "title": "foto event 10"},
+                    {"thumbnail": "/ev11.png", "title": "foto event 11"},
+                    {"thumbnail": "/ev12.png", "title": "foto event 12"}
                 ]
             },
             {
                 "label": "Videograpy",
-                "content": []
+                "content": [
+                    {"thumbnail": "/tumnailvidprofsmk.png", "title": "Profile SMKN 3 JEPARA", "link": "https://bit.ly/4eu1DQ5"},
+                    {"thumbnail": "/tumnailvidprofakl.png", "title": "Profile Jurusan AKL SMKN 3 JEPARA", "link": "https://bit.ly/3B7bPQn"},
+                    {"thumbnail": "/tumnailharkopri1.jpg", "title": "Upacara HUT Kopri ke 52 SMKN 3 JEPARA", "link": "https://bit.ly/3zwSxmM"},
+                    {"thumbnail": "/tumnailnikah.png", "title": "Tugas Praktik Nikah", "link": "https://youtu.be/kT2j25COzqw"},
+                    {"thumbnail": "/tumnaililm.png", "title": "Tugas Iklan layanan Masyarakat", "link": "https://bit.ly/3XPmjNc"},
+                    {"thumbnail": "/tumnaililk.png", "title": "Tugas Iklan layanan Komersial", "link": "https://youtu.be/up89rPvuEC8"},
+                    {"thumbnail": "/tumnailivu.png", "title": "Tugas Iklan Video UMKM", "link": "https://youtu.be/lZb7e7ot_So"},
+                    {"thumbnail": "/tumnailudinus.png", "title": "Video Jaga Kesehatan mulai Dari Diri Sendiri", "link": "https://bit.ly/47vNcZA"},
+                    {"thumbnail": "/tumnailev.png", "title": "After Movie 17 Agustus 2024 Wolulas Fest", "link": "https://bit.ly/3ZtWao8"}
+            ]
             },
             {
                 "label": "Video Editing",
-                "content": []
+                "content": [
+                    {"thumbnail": "/prsjp.png", "title": "Persijap Training", "link": "https://www.instagram.com/reel/CxfVdAGv2mc/?igsh=MXg1YXUybXFmYm04eg=="},
+                    {"thumbnail": "/drum.jpg.png", "title": "Kodim Gebyar Gebuk Symphoni", "link": "https://www.instagram.com/reel/Cxn5Y4Pycr3/?igsh=cTUyNTNqc2tjZ3Qz"},
+                    {"thumbnail": "/otella.png", "title": "Video Iklan Otella", "link": "https://vt.tiktok.com/ZSYfXJsBu/"}
+                ]
             },
             {
                 "label": "Graphic Design",
-                "content": []
+                "content": [
+                    {"thumbnail": "/designlogo1.png", "title": "Design Logo "},
+                    {"thumbnail": "/designlogo2.png", "title": "Design Logo "},
+                    {"thumbnail": "/logo3-01-01.png", "title": "Design Logo "},
+                    {"thumbnail": "/tumnaililk.png", "title": "Design Logo "},
+                    {"thumbnail": "/nachips-01.png", "title": "Design Kemasan "},
+                    {"thumbnail": "/TEHITZ-01-01.png", "title": "Design Kemasan "},
+                    {"thumbnail": "/ganci.png", "title": "Design Gantungan Kunci"},
+                    {"thumbnail": "/mug.png", "title": "Design Mug"},
+                    {"thumbnail": "/Designplakat-01.png", "title": "Design Plakat"},
+                    {"thumbnail": "/Kartu nama-01.png", "title": "Design Kartu Nama"},
+                    {"thumbnail": "/banner coffe.png", "title": "Design Banner"},
+                    {"thumbnail": "/banner kisnara.png", "title": "Design Banner"},
+                    {"thumbnail": "/design hari besar1.png", "title": "Design Hari Besar "},
+                    {"thumbnail": "/design hari besar2.png", "title": "Design Hari Besar "},
+                    {"thumbnail": "/design hari besar3.png", "title": "Design Hari Besar "},
+                    {"thumbnail": "/designdigitalmarketing1.png", "title": "Design Digital Marketing "},
+                    {"thumbnail": "/digitalmarketing2.png", "title": "Design Digital Marketing "},
+                    {"thumbnail": "/digitalmarketing3.png", "title": "Design Digital Marketing "}
+                ]
             }
-        ]
+        ]  
     },
     "copyright": {
-        "holder": "Nakeisya"
+        "holder": "Nakeisya Rahma"
     }
     
 }

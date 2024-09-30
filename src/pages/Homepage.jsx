@@ -1,6 +1,6 @@
 import React from "react";
 import {Avatar, Card, Flex, Image, List, Steps, theme, Typography} from "antd";
-import {HomeOutlined, MailOutlined, PhoneOutlined} from "@ant-design/icons";
+import {HomeOutlined, MailOutlined, PhoneOutlined, InstagramOutlined, LinkedinOutlined} from "@ant-design/icons";
 const {Title, Text} = Typography;
 const websiteData = require("../config/data.json");
 
@@ -16,6 +16,7 @@ export default function Homepage() {
                     minHeight: 280,
                     padding: 24,
                     borderRadius: borderRadiusLG,
+                    marginTop: "2rem"
                 }}
             >
                 <Flex vertical align='center'>
@@ -110,6 +111,16 @@ export default function Homepage() {
                         title: "Email",
                         description: websiteData.user.email,
                     },
+                    {
+                        icon: <InstagramOutlined />,
+                        title: "Instagram",
+                        description: websiteData.user.Instagram,
+                    },
+                    {
+                        icon: <LinkedinOutlined />,
+                        title: "Linkedin",
+                        description: websiteData.user.Linkedin,
+                    },
                 ]}
                 renderItem={(item, index) => (
                     <List.Item>
@@ -123,6 +134,8 @@ export default function Homepage() {
                     </List.Item>
                 )}
             />
+            <Title level={2}>Portfolio</Title>
+            <Text align='side'>{websiteData.user.portofolio}</Text>
         </>
     );
 }
