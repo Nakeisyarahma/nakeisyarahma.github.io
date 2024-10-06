@@ -40,28 +40,28 @@ export default function Portfolio() {
                                         xxl: 3,
                                     }}
                                     dataSource={item.content}
-                                    renderItem={(item) => (
+                                    renderItem={(workitem) => (
                                         <List.Item>
                                             <Card
                                                 hoverable
                                                 cover={
                                                     <Image
                                                         alt='example'
-                                                        src={item.thumbnail}
+                                                        src={workitem.thumbnail}
                                                     />    
                                                 }
                                             >
-                                                <Button
+                                                {(item.label !== "Photograpy"&&item.label !== "Graphic Design")&&<Button
                                                 type="primary"
                                                 icon={<PlayCircleOutlined />} 
                                                 onClick={() => 
                                                     (window.location.href=
-                                                         item.link)
+                                                         workitem.link)
                                                         }
-                                                >KLIK HERE</Button>
+                                                >KLIK HERE</Button>}
                                                 <Meta
-                                                    title={item.title}
-                                                    description={item.link}
+                                                    title={workitem.title}
+                                                    description={workitem.link}
                                                 />
                                             </Card>
                                         </List.Item> 

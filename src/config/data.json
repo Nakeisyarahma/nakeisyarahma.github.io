@@ -39,7 +39,6 @@
         "Instagram": "nakeisya_rn",
         "Linkedin": "Nakeisya Rahma Nurramadhan",
         "portofolio": "For the complete portfolio, please click on the 3 dots in the top right corner",
-        "klik": "KLIK HERE",
         "works": [
             {
                 "label": "Photograpy",
@@ -124,7 +123,7 @@
         ]  
     },
     "copyright": {
-        "holder": "Nakeisya Rahma"
+        "holder": "Nakeisya"
     }
     
 }
