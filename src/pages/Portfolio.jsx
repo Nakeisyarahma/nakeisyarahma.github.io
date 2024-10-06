@@ -1,3 +1,4 @@
+import { PlayCircleOutlined, PoweroffOutlined } from "@ant-design/icons";
 import {Breadcrumb, Button, Card, List, Space, Tabs, Image} from "antd";
 import Meta from "antd/es/card/Meta";
 import React from "react";
@@ -47,13 +48,17 @@ export default function Portfolio() {
                                                     <Image
                                                         alt='example'
                                                         src={item.thumbnail}
-                                                    />
-                                                }
-                                                onClick={() =>
-                                                    (window.location.href =
-                                                        item.link)
+                                                    />    
                                                 }
                                             >
+                                                <Button
+                                                type="primary"
+                                                icon={<PlayCircleOutlined />} 
+                                                onClick={() => 
+                                                    (window.location.href=
+                                                         item.link)
+                                                        }
+                                                >KLIK HERE</Button>
                                                 <Meta
                                                     title={item.title}
                                                     description={item.link}
