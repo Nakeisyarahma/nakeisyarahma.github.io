@@ -61,7 +61,7 @@ export default function Portfolio() {
                                                 >KLIK HERE</Button>}
                                                 <Meta
                                                     title={workitem.title}
-                                                    description={workitem.link}
+                                
                                                 />
                                             </Card>
                                         </List.Item> 
