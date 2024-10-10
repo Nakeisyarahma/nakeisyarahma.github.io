@@ -17,7 +17,7 @@ export default function NavigationBar() {
         },
         {
             key: "3",
-            label: <a href='/resume.png'>Resume</a>,
+            label: <a href='/CV Nakeisya Rahma Nurramadhan-01-01.png'>Resume</a>,
         },
     ];
     return (

@@ -58,7 +58,7 @@ export default function Portfolio() {
                                                     (window.location.href=
                                                          workitem.link)
                                                         }
-                                                >KLIK HERE</Button>}
+                                                >PLAY</Button>}
                                                 <Meta
                                                     title={workitem.title}
                                 
