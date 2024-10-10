@@ -127,7 +127,7 @@ export default function Homepage() {
                         <List.Item.Meta
                             avatar={item.icon}
                             title={
-                                <a href='https://ant.design'>{item.title}</a>
+                                <a href='https://linktr.ee/NAKEISYA_RAHMA'>{item.title}</a>
                             }
                             description={item.description}
                         />
